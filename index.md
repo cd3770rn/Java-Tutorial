@@ -124,7 +124,7 @@ There are many different operators in Java, which are shared by most languages i
 | Operator                        | Description                                                                        | Example       |
 |:--------------------------------|:-----------------------------------------------------------------------------------|:--------------|
 | **+** _(Addition)_              | Adds values on either side of the operator.                                        | 10 + 20 = 30  |
-| **-** _(Subtraction_            | Subtracts right-hand operand from left-hand operand.                               | 10 - 20 = -10 |
+| **-** _(Subtraction)_           | Subtracts right-hand operand from left-hand operand.                               | 10 - 20 = -10 |
 | <b>*</b> _(Multiplication)_     | Multiplies values on either side of the operator.                                  | 10 * 20 = 200 |
 
 
@@ -144,7 +144,7 @@ There are many different operators in Java, which are shared by most languages i
 
 | Operator        | Description          | Example |
 |:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
+| **+** _(Addition)_           | Adds values on either side of the operator. | 10 + 20 = 30  |
 | out of stock | good and plenty   | nice  |
 | ok           | good `oreos`      | hmm   |
 | ok           | good `zoute` drop | yumm  |
