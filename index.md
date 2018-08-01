@@ -43,7 +43,7 @@ int myInt = 1234567;
 long myLong = 1234567890;
 ```
 
-Modern computers have more available memory than they did in the past, so Java assumes all floating point-values are of type **double** _(64-bit floating-point number)_ unless otherwise specified. To create a **float** _(32-bit floating-point number)_, you must add an **f** to the end of a floating-point value.
+Modern computers have more available memory than they did in the past, so Java assumes all floating point-values are of type **double** _(64-bit floating-point number)_ unless otherwise specified. To create a **float** _(32-bit floating-point number)_, you must add an _f_ to the end of a floating-point value.
 ```java
 float myFloat = 1.23456f;
 double myDouble = 1.23456;
