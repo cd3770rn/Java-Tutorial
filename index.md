@@ -152,6 +152,7 @@ There are many different operators in Java, which are shared by most languages i
 | ! _(Logical NOT)_           | Used to reverse the logical state of its operand. If a condition is true, then a logical NOT will make it false. | !(true && false) returns true  |
 
 #### Assignment Operators
+
 | Operator        | Description          | Example |
 |:-------------|:------------------|:------|
 | =           | Assignment operator. Assigns values from right side operands to left side operand. | A = 10 + 20  |
@@ -162,6 +163,7 @@ There are many different operators in Java, which are shared by most languages i
 | %=           | Modulus and assignment operator. It takes modulus using two operands and assigns the result to the left operand. | A %= 3 _(equivalent to A = A % 3)_ |
 
 #### Miscellaneous Operators
+
 | Operator        | Description          | Example |
 |:-------------|:------------------|:------|
 | ? :           | This operator consists of three operands and is used to evaluate boolean expressions. The goal of the operator is to decide which value should be assigned to the variable. | int x = (expression) ? _(value if true)_ : _(value if false)_  |
