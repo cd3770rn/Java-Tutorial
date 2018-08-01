@@ -144,10 +144,13 @@ There are many different operators in Java, which are shared by most languages i
 
 | Operator        | Description          | Example |
 |:-------------|:------------------|:------|
-| **+** _(Addition)_           | Adds values on either side of the operator. | 10 + 20 = 30  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
+| + _(Addition)_           | Adds values on either side of the operator. | 10 + 20 = 30  |
+| - _(Subtraction)_ | Subtracts right-hand operand from left-hand operand.   | 10 - 20 = -10  |
+| * _(Multiplication)_           | Multiplies values on either side of the operator.      | 10 * 20 = 200   |
+| / _(Division)_           | Divides left-hand operand by right-hand operand. | 20 / 10 = 2  | 
+| % _(Modulus)_           | Divides left-hand operand by right-hand operand and returns remainder. | 20 % 10 = 0  | 
+| ++ _(Increment)_           | Increases the value of the operand by 1. | 20++ becomes 21  | 
+| -- _(Decrement)_           | Decreases the value of the operand by 1. | 20-- becomes 19  | 
 
 ### There's a horizontal rule below this.
 
