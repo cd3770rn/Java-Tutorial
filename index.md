@@ -126,7 +126,7 @@ There are many different operators in Java, which are shared by most languages i
 |:-------------|:------------------|:------|
 | + _(Addition)_           | Adds values on either side of the operator. | 10 + 20 = 30  |
 | - _(Subtraction)_ | Subtracts right-hand operand from left-hand operand.   | 10 - 20 = -10  |
-| ✱ _(Multiplication)_           | Multiplies values on either side of the operator.      | 10 ✱ 20 = 200   |
+| ∗ _(Multiplication)_           | Multiplies values on either side of the operator.      | 10 ✱ 20 = 200   |
 | / _(Division)_           | Divides left-hand operand by right-hand operand. | 20 / 10 = 2  | 
 | % _(Modulus)_           | Divides left-hand operand by right-hand operand and returns remainder. | 20 % 10 = 0  | 
 | ++ _(Increment)_           | Increases the value of the operand by 1. | 20++ becomes 21  | 
@@ -158,7 +158,7 @@ There are many different operators in Java, which are shared by most languages i
 | =           | Assignment operator. Assigns values from right side operands to left side operand. | A = 10 + 20  |
 | +=            | Addition and assignment operator. Adds right operand to the left operand and then assigns the result to the left operand. | A += 10 _(equivalent to A = A + 10)_ |
 | -=            | Addition and subtraction operator. Subtracts right operand from the left operand and assigns the result to the left operand. | A -= 10 _(equivalent to A = A - 10)_ |
-| ✱=            | Multiplication and assignment operator. Multiplies right operand with the left operand and assigns the result to the left operand. | A ✱= 10 _(equivalent to A = A ✱ 10)_  |
+| ∗=            | Multiplication and assignment operator. Multiplies right operand with the left operand and assigns the result to the left operand. | A ∗= 10 _(equivalent to A = A ∗ 10)_  |
 | /=           | Division and assignment operator. Divides left operand with the right operand and assigns the result to the left operand. | A /= 2 _(equivalent to A = A / 10)_  |
 | %=           | Modulus and assignment operator. It takes modulus using two operands and assigns the result to the left operand. | A %= 3 _(equivalent to A = A % 3)_ |
 
