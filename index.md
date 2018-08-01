@@ -53,7 +53,9 @@ Declaring character variables is written the same way as for other data types:
 ```java
 char myChar = 'a';
 ```
-> Note that to declare a String, you must use a capital S. This is because Strings are considered Objects, and are not considered a primitive _(built-in)_ data type. This is also why you will not see String variables bolded or colored like other data types are.
+> Note that to declare a String, you must use a capital S.
+> This is because Strings are considered Objects, and are not considered a primitive _(built-in)_ data type.
+> This is also why you will not see the word _'String'_ formatted like other data types.
 ```java
 String myString = "abc123";
 ```
