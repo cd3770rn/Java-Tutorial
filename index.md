@@ -4,10 +4,6 @@ layout: default
 
 **Data structures**, or _data types_, are used to store information in a program. Java, like all high-level languages, provides a number of built-in data types that are available for you to use right away. **Object-oriented programming**, or **OOP**, allows for simple data types to be used to create a more useful complex data structure, such as a user profile.
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
-
-[Link to another page](./another-page.html).
-
 * * *
 
 ### Data Types
@@ -21,7 +17,7 @@ Text can be **bold**, _italic_, or ~~strikethrough~~.
 * **char** – a single 16-bit Unicode character stored between two single-quotes _(ex. 'a')_
 * String – any sequence of Unicode characters stored between two double-quotes _(ex. "a1b2c")_
 
-> Note that Strings are not _technically_ data-types in Java. Instead, they are considered to be an **array** of characters.
+> Note that Strings are not _technically_ data types in Java. Instead, they are considered to be an **array** of characters.
 
 * * *
 
@@ -68,7 +64,34 @@ String myString = "abc123";
 * * *
 
 ### Data Structures
-In addition to these data types, there are built-in data structures as well. They offer basic ways to store data. Unlike humans, computers begin counting from 0, so the first object in a data structure has an **index**, or _number pertaining to its order in the data structure_, of 0.
+In addition to these data types, there are built-in data structures as well. They offer basic ways to store data. Unlike humans, computers begin counting from 0, so the first object in a data structure has an **index**, or _number pertaining to its order in the data structure_, of 0. The simplest data structure is an array, which is declared as follows:
+
+
+```java
+// If you know exactly what you want in the array when you define it...
+datatype[] name = {value, value, value};
+
+// Otherwise you can define how large an array is like this...
+datatype[] name = new datatype[size];
+```
+
+The downside to using arrays is that they don't provide much functionality. The only thing you can do with an array is store a known-number of objects. Additionally, the array can only tell you how long it is, and what object is at a certain index. The syntax is as follows:
+
+```java
+int[] numbers = {1, 2, 3, 4, 5};
+
+// If we print the length of the array...
+System.out.println(numbers.length); // produces 5
+
+// If we want to print what is at a given index...
+System.out.println(numbers[0]); // produces 1
+System.out.println(numbers[1]); // produces 2
+System.out.println(numbers[2]); // produces 3
+System.out.println(numbers[3]); // produces 4
+System.out.println(numbers[4]); // produces 5
+```
+
+> TIP: To **print** something to the console, use the `System.out.println()` function.
 
 
 #### Data Types
@@ -147,6 +170,10 @@ In addition to these data types, there are built-in data structures as well. The
 <dt>Color</dt>
 <dd>Green</dd>
 </dl>
+
+Text can be **bold**, _italic_, or ~~strikethrough~~.
+
+[Link to another page](./another-page.html).
 
 ```
 Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
