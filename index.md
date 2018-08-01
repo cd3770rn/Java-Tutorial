@@ -2,26 +2,27 @@
 layout: default
 ---
 
+**Data structures**, or _data types_, are used to store information in a program. Java, like all high-level languages, provides a number of built-in data types that are available for you to use right away. **Object-oriented programming**, or **OOP**, allows for simple data types to be used to create a more useful complex data structure, such as a user profile.
+
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
 
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
 #### Data Types
-* boolean – true or false
-* byte – 8-bit signed integer with possible values between -128 and 127 (inclusive)
-* short – 16-bit signed integer with possible values between -32,768 and 32,767 (inclusive)
-* int – 32-bit signed integer with possible values between -2<sup>31</sup> and 2<sup>31</sup>-1
-* long – 64-bit signed integer with possible values between -2<sup>63</sup> and 2<sup>63</sup>-1
+* **boolean** – a true or false value
+* **byte** – 8-bit signed integer with possible values between -128 and 127 (inclusive)
+* **short** – 16-bit signed integer with possible values between -32,768 and 32,767 (inclusive)
+* **int** – 32-bit signed integer with possible values between -2<sup>31</sup> and 2<sup>31</sup>-1
+* **long** – 64-bit signed integer with possible values between -2<sup>63</sup> and 2<sup>63</sup>-1
+* **float** – 32-bit signed floating-point value with 6 to 9 digits of precision _(ex. '1.53')_
+* **double** – 64-bit signed floating-point value with 15 to 17 digits of precision
+* **char** – a single 16-bit Unicode character stored between two single-quotes _(ex. 'a')_
+* String – any sequence of Unicode characters stored between two double-quotes _(ex. "a1b2c")_
 
-## Data Types
+> Note that Strings are not _technically_ data-types in Java. Instead, they are considered to be an **array** of characters.
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+#### Variables
+While data 
 
 ### Data Types
 
