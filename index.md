@@ -121,9 +121,10 @@ And we will get the following output:
 There are many different operators in Java, which are shared by most languages in one form or another.
 
 #### Arithmetic Operators
-| Operator      | Description       | Example       |
-|:--------------|:------------------|:--------------|
-|+ (Addition)   | Adds values on either side of the operator. | 10 + 20 = 30 |
+| Operator       | Description                                                 | Example       |
+|:---------------|:------------------------------------------------------------|:--------------|
+| + (Addition)   | Adds values on either side of the operator.                 | 10 + 20 = 30  |
+| - (Subtraction | Subtracts right-hand operand from left-hand operand.        | 10 - 20 = -10 |
 
 
 #### Data Types
