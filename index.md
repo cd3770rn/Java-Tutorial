@@ -31,22 +31,33 @@ datatype variablename = value;
 > Every statement in Java must be follwed by a semicolon to denote the end of the statement.
 > Note that your variables cannot share the name of already existing variables, funtions, or classes.
 
-### Data Types
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
+So, to create a **boolean** called **myBoolean** which is **true**, the syntax is as follows:
+```java
+boolean myBoolean = true;
+```
+The process is similar for creating a variable of any other type:
+```java
+byte myByte = 123;
+short myShort = 1234;
+int myInt = 1234567;
+long myLong = 1234567890;
 ```
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
+Modern computers have more available memory than they did in the past, so Java assumes all floating point-values are of type **double** _(64-bit floating-point number)_ unless otherwise specified. To create a **float** _(32-bit floating-point number)_, you must add an **f** to the end of a floating-point value.
+```java
+float myFloat = 1.23456f;
+double myDouble = 1.23456;
 ```
+
+Declaring character variables is written the same way as for other data types:
+```java
+char myChar = 'a';
+```
+> Note that to declare a String, you must use a capital S. This is because Strings are considered Objects, and are not considered a primitive _(built-in)_ data type. This is also why you will not see String variables bolded or colored like other data types are.
+```java
+String myString = "abc123";
+```
+
 
 #### Data Types
 
