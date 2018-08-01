@@ -114,7 +114,16 @@ And we will get the following output:
 ```
 > TIP: To **print** something to the console, use the `System.out.println()` function.
 
+* * *
 
+### Operators
+
+There are many different operators in Java, which are shared by most languages in one form or another.
+
+#### Arithmetic Operators
+| Operator      | Description       | Example       |
+|:--------------|:------------------|:--------------|
+|+ (Addition)   | Adds values on either side of the operator. | 10 + 20 = 30 |
 
 
 #### Data Types
