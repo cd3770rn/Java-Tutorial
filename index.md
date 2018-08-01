@@ -95,7 +95,7 @@ Which, as expected, produces the length of the array:
 
 And we can find what object is at a given index like this:
 ```java
-System.out.println("===== OUTPUT =====" + "\n")
+System.out.println("===== OUTPUT =====")
 System.out.println(numbers[0]); // print index 0
 System.out.println(numbers[1]); // print index 1
 System.out.println(numbers[2]); // ...
@@ -112,10 +112,9 @@ And we will get the following output:
 4
 5
 ```
- 
-
-
 > TIP: To **print** something to the console, use the `System.out.println()` function.
+
+
 
 
 #### Data Types
