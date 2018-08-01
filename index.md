@@ -22,7 +22,14 @@ Text can be **bold**, _italic_, or ~~strikethrough~~.
 > Note that Strings are not _technically_ data-types in Java. Instead, they are considered to be an **array** of characters.
 
 ### Variables
-While data 
+While data types _store_ information, variables serve as a way to _reference_ information. Java is a strongly typed language, meaning that in order to create a variable, you must first specify its data type.
+
+To **declare**, or _create_ a variable, the **syntax**, or _way it is written_ is as follows:
+```java
+datatype variablename = value;
+```
+> Every statement in Java must be follwed by a semicolon to denote the end of the statement.
+> Note that your variables cannot share the name of already existing variables, funtions, or classes.
 
 ### Data Types
 
