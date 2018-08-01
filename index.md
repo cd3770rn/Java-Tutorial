@@ -121,26 +121,6 @@ And we will get the following output:
 There are many different operators in Java, which are shared by most languages in one form or another.
 
 #### Arithmetic Operators
-| Operator                        | Description                                                                        | Example       |
-|:--------------------------------|:-----------------------------------------------------------------------------------|:--------------|
-| **+** _(Addition)_              | Adds values on either side of the operator.                                        | 10 + 20 = 30  |
-| **-** _(Subtraction)_           | Subtracts right-hand operand from left-hand operand.                               | 10 - 20 = -10 |
-| <b>*</b> _(Multiplication)_     | Multiplies values on either side of the operator.                                  | 10 * 20 = 200 |
-
-
-#### Data Types
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Data Types
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Data Types
 
 | Operator        | Description          | Example |
 |:-------------|:------------------|:------|
@@ -151,6 +131,27 @@ There are many different operators in Java, which are shared by most languages i
 | % _(Modulus)_           | Divides left-hand operand by right-hand operand and returns remainder. | 20 % 10 = 0  | 
 | ++ _(Increment)_           | Increases the value of the operand by 1. | 20++ becomes 21  | 
 | -- _(Decrement)_           | Decreases the value of the operand by 1. | 20-- becomes 19  | 
+
+#### Relational Operators
+
+| Operator        | Description          | Example |
+|:-------------|:------------------|:------|
+| == _(Equal to)_           | Checks if the value of both operands are equal. Returns true or false. | 10 == 20 returns false  |
+| != _(Not equal to)_           | Checks if the value of both operands are not equal. Returns true or false. | 10 != 20 returns true  |
+| > _(Greater than)_           | Checks if the value of the left operand is greater than the value of the right operand. Returns true or false. | 10 > 20 returns false  |
+| < _(Less than)_           | Checks if the value of the left operand is less than the value of the right operand. | 10 < 20 returns true  |
+| >= _(Greater than or equal to)_           | Checks if the value of the left operand is greater than or equal to the right operand. Returns true or false. | 10 >= 20 returns false  |
+| <= _(Less than or equal to)_           | Checks if the value of the left operand is less than or equal to the right operand. Returns true or false. | 10 <= 20 returns true  |
+
+#### Logical Operators
+
+| Operator        | Description          | Example |
+|:-------------|:------------------|:------|
+| && _(Logical AND)_           | Checks if both operands are true. Returns true or false. | true && false returns false  |
+| ∥ _(Logical OR)_           | Checks if any operand is true. Returns true or false. | true || false returns true  |
+
+
+
 
 ### There's a horizontal rule below this.
 
