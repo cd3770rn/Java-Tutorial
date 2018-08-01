@@ -84,24 +84,36 @@ int[] numbers = {1, 2, 3, 4, 5};
 
 We can check the length like this:
 ```java
+System.out.println("===== LENGTH OF THE ARRAY =====");
 System.out.println(numbers.length); 
 ```
-`>>> 5`
+Which, as expected, produces the length of the array:
+```java
+===== LENGTH OF THE ARRAY =====
+5
+```
 
 And we can find what object is at a given index like this:
 ```java
+System.out.println("===== OUTPUT =====" + "\n")
 System.out.println(numbers[0]); // print index 0
 System.out.println(numbers[1]); // print index 1
 System.out.println(numbers[2]); // ...
 System.out.println(numbers[3]); // ...
 System.out.println(numbers[4]); // ...
 ```
-`>>> 1
- >>> 2
- >>> 3
- >>> 4
- >>> 5
-`
+
+And we will get the following output:
+```java
+===== OUTPUT =====
+1
+2
+3
+4
+5
+```
+ 
+
 
 > TIP: To **print** something to the console, use the `System.out.println()` function.
 
