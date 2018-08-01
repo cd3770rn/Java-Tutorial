@@ -10,7 +10,12 @@ There should be whitespace between paragraphs.
 
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
-# Data Types
+#### Data Types
+* boolean – true or false
+* byte – 8-bit signed integer with possible values between -128 and 127 (inclusive)
+* short – 16-bit signed integer with possible values between -32,768 and 32,767 (inclusive)
+* int – 32-bit signed integer with possible values between -2<sup>31</sup> and 2<sup>31</sup>-1
+* long – 64-bit signed integer with possible values between -2<sup>63</sup> and 2<sup>63</sup>-1
 
 ## Data Types
 
