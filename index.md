@@ -170,3 +170,27 @@ There are many different operators in Java, which are shared by most languages i
 | instanceof           | This operator is used only for object reference variables. The operator checks whether the object is of a particular type (class type or interface type). | 7.5 instanceof int returns false  |
 
 * * *
+
+### Syntax
+
+Having an idea and knowing how to execute it are completely separate challenges. Syntax is the way in which things are written, and knowing and understanding it is pertinent to your ability to code. As mentioned above, Java is a strongly typed language. This means you need to do things how Java expects you to, or you will have errors in your code. 
+
+In most programming languages, variable and function names are written in **Camel Case**. When using camel case, the first letter of a variable or function is lowercase, with every subsequent word being capitalized. Here's an example:
+
+```java
+// Camel Case
+int numberOfDogs = 4;
+double slicesOfPizza = 6.5;
+
+//Not in Camel Case
+int numberofcats = 2;
+String yarn = "Hello World!";
+```
+
+
+Each statement in Java requires a semicolon at the end of each line, regardless of if you are declaring a variable or **calling**, or _(accessing)_, a function.
+
+```java
+int cats = 3;
+int dogs = getNumberOfDogs();
+```
