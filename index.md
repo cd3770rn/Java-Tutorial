@@ -56,6 +56,7 @@ char myChar = 'a';
 > Note that to declare a String, you must use a capital S.
 > This is because Strings are considered Objects, and are not considered a primitive _(built-in)_ data type.
 > This is also why you will not see the word _'String'_ formatted like other data types.
+
 ```java
 String myString = "abc123";
 ```
