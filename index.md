@@ -75,21 +75,33 @@ datatype[] name = {value, value, value};
 datatype[] name = new datatype[size];
 ```
 
-The downside to using arrays is that they don't provide much functionality. The only thing you can do with an array is store a known-number of objects. Additionally, the array can only tell you how long it is, and what object is at a certain index. The syntax is as follows:
+The downside to using arrays is that they don't provide much functionality. The only thing you can do with an array is store a known-number of objects. Additionally, the array can only tell you how long it is, and what object is at a certain index. 
 
+Given the following array:
 ```java
 int[] numbers = {1, 2, 3, 4, 5};
-
-// If we print the length of the array...
-System.out.println(numbers.length); // produces 5
-
-// If we want to print what is at a given index...
-System.out.println(numbers[0]); // produces 1
-System.out.println(numbers[1]); // produces 2
-System.out.println(numbers[2]); // produces 3
-System.out.println(numbers[3]); // produces 4
-System.out.println(numbers[4]); // produces 5
 ```
+
+We can check the length like this:
+```java
+System.out.println(numbers.length); 
+```
+`>>> 5`
+
+And we can find what object is at a given index like this:
+```java
+System.out.println(numbers[0]); // print index 0
+System.out.println(numbers[1]); // print index 1
+System.out.println(numbers[2]); // ...
+System.out.println(numbers[3]); // ...
+System.out.println(numbers[4]); // ...
+```
+`>>> 1
+ >>> 2
+ >>> 3
+ >>> 4
+ >>> 5
+`
 
 > TIP: To **print** something to the console, use the `System.out.println()` function.
 
