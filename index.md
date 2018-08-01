@@ -142,7 +142,7 @@ There are many different operators in Java, which are shared by most languages i
 
 ###### Data Types
 
-| head1        | head two          | three |
+| Operator        | Description          | Example |
 |:-------------|:------------------|:------|
 | ok           | good swedish fish | nice  |
 | out of stock | good and plenty   | nice  |
