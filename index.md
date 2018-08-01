@@ -8,7 +8,7 @@ Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
 
-#### Data Types
+### Data Types
 * **boolean** – a true or false value
 * **byte** – 8-bit signed integer with possible values between -128 and 127 (inclusive)
 * **short** – 16-bit signed integer with possible values between -32,768 and 32,767 (inclusive)
@@ -21,7 +21,7 @@ Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 > Note that Strings are not _technically_ data-types in Java. Instead, they are considered to be an **array** of characters.
 
-#### Variables
+### Variables
 While data 
 
 ### Data Types
