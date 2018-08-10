@@ -7,25 +7,32 @@ Computers obviously do not understand human languages, so programs are written i
 
 
 #### Machine Code
-The lowest level of programming languages is machine code, better known as binary. In order to provide a command for the computer to use, it must be written as a series of zeroes and ones. For example, to add two numbers, you might have to write an instruction in binary code like this: 
+The lowest level of programming languages is **machine code**, better known as **binary**. In order to provide a command for the computer to use, it must be written as a series of zeroes and ones. For example, to add two numbers, you might have to write an instruction in binary code like this: 
 ```
 1101101010011010
 ```
 
 #### Assembly Language
-As you can probably guess, programming in binary is tedious and difficult. Programs written in binary are very difficult to decipher, and equally as hard to modify. Assembly language was created to solve this problem. Assembly uses a mnemonic to represent instructions for the computer. Instead of writing a bunch of zeroes and ones, you can now write:
+As you can probably guess, programming in binary is tedious and difficult. Programs written in binary are very difficult to decipher, and equally as hard to modify. **Assembly language was** created to solve this problem. Assembly uses a mnemonic to represent instructions for the computer. Instead of writing a bunch of zeroes and ones, you can now write:
 ```
 add 2, 3, result
 ```
     
-Assembly was made to allow humans to more easily write code. Much like higher-level languages, however, the computer cannot execute code written in assembly. An **assembler** is used to translate assembly-language programs into machine code that the computer *can* execute. So writing `add 2, 3, result` will be converted to `1101101010011010` and the computer will perform the command. 
+Assembly was made to allow humans to more easily write code. However, the computer cannot execute code written in assembly. An **assembler** is used to translate assembly-language programs into machine code that the computer *can* execute. So writing `add 2, 3, result` will be converted to `1101101010011010` and the computer will perform the command. 
 
 While much easier than binary, writing code in assembly language is still time consuming and challenging. Writing in assembly requires that you understand how the CPU works. It is therefore considered a low-level language.
 
 #### High-Level Languages
 
-High-level languages came about in the 1950s, and allow the programmer to write code that is platform independent. That is, you can write code in a high-level language and it can be executed on different types of machines. They also offer other benefits such as GUI-based development environments and are much more powerful when compared to low-level languages.
+**High-level languages** came about in the 1950s, and allow the programmer to write code that is platform independent. That is, you can write code in a high-level language and it can be executed on different types of machines. They also offer other benefits such as GUI-based development environments and are much more powerful when compared to low-level languages.
 
+Code written in a high-level language is referred to as **source code**. Much like assembly code, source code must be converted to machine code. This can be achieved in two ways, either using an **interpreter**, or a **compiler**. 
+
+An interpreter reads one statement from the source code, translates it into machine-readable code, and then executes it right away. A compiler translates the entire source code into machine code, and then it is executed. Interpreted code can be run very quickly, while compiled code takes a moment to compile each time the code is executed.
+
+* * *
+
+The following information will cover the basic functionality of Java and should teach you how to create a basic program. Being creatively minded will help you in coming up with projects to apply your knowledge beyond the scope of what is offered here.
 
 * * *
 
