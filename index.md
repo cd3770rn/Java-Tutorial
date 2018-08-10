@@ -2,6 +2,33 @@
 layout: default
 ---
 
+### A Short History of Programming Languages
+Computers obviously do not understand human languages, so programs are written in a language that a computer can use. There are many programming languages, all of which a computer can recognize. In order for the computer to understand these commands, they must be first converted into instructions the computer can use.
+
+
+#### Machine Code
+The lowest level of programming languages is machine code, better known as binary. In order to provide a command for the computer to use, it must be written as a series of zeroes and ones. For example, to add two numbers, you might have to write an instruction in binary code like this: 
+    ```binary
+    1101101010011010
+    ```
+
+#### Assembly Language
+As you can probably guess, programming in binary is tedious and difficult. Programs written in binary are very difficult to decipher, and equally as hard to modify. Assembly language was created to solve this problem. Assembly uses a mnemonic to represent instructions for the computer. Instead of writing a bunch of zeroes and ones, you can now write:
+    ```assembly
+    add 2, 3, result
+    ```
+    
+Assembly was made to allow humans to more easily write code. Much like higher-level languages, however, the computer cannot execute code written in assembly. An **assembler** is used to translate assembly-language programs into machine code that the computer *can* execute. So writing `add 2, 3, result` will be converted to `1101101010011010` and the computer will perform the command. 
+
+While much easier than binary, writing code in assembly language is still time consuming and challenging. Writing in assembly requires that you understand how the CPU works. It is therefore considered a low-level language.
+
+#### High-Level Languages
+
+High-level languages came about in the 1950s, and allow the programmer to write code that is platform independent. That is, you can write code in a high-level language and it can be executed on different types of machines. They also offer other benefits such as GUI-based development environments and are much more powerful when compared to low-level languages.
+
+
+* * *
+
 **Data structures**, or _data types_, are used to store information in a program. Java, like all high-level languages, provides a number of built-in data types that are available for you to use right away. **Object-oriented programming**, or **OOP**, allows for simple data types to be used to create a more useful complex data structure, such as a user profile.
 
 * * *
