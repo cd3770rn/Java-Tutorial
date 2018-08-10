@@ -8,15 +8,15 @@ Computers obviously do not understand human languages, so programs are written i
 
 #### Machine Code
 The lowest level of programming languages is machine code, better known as binary. In order to provide a command for the computer to use, it must be written as a series of zeroes and ones. For example, to add two numbers, you might have to write an instruction in binary code like this: 
-    ```binary
-    1101101010011010
-    ```
+```
+1101101010011010
+```
 
 #### Assembly Language
 As you can probably guess, programming in binary is tedious and difficult. Programs written in binary are very difficult to decipher, and equally as hard to modify. Assembly language was created to solve this problem. Assembly uses a mnemonic to represent instructions for the computer. Instead of writing a bunch of zeroes and ones, you can now write:
-    ```assembly
-    add 2, 3, result
-    ```
+```
+add 2, 3, result
+```
     
 Assembly was made to allow humans to more easily write code. Much like higher-level languages, however, the computer cannot execute code written in assembly. An **assembler** is used to translate assembly-language programs into machine code that the computer *can* execute. So writing `add 2, 3, result` will be converted to `1101101010011010` and the computer will perform the command. 
 
